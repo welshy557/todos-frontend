@@ -5,6 +5,7 @@ const useApi = () => {
   const [token] = useAuth()
   
   const postOrPut = async (method, endpoint, data) => {
+    console.log("API URL", process.env.API_URL)
     const options = {
       method: method,
       headers: {
