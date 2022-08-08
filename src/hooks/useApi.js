@@ -5,7 +5,6 @@ const useApi = () => {
   const [token] = useAuth()
   
   const postOrPut = async (method, endpoint, data) => {
-    console.log("API URL", process.env.API_URL)
     const options = {
       method: method,
       headers: {
@@ -13,7 +12,7 @@ const useApi = () => {
         'Content-Type': 'application/json;charset=UTF-8',
         'authorization': token
       },
-      url: process.env.API_URL ? `${process.env.API_URL}/${endpoint}` : `http://localhost:3001/${endpoint}`,
+      url: `https://todoical.herokuapp.com/${endpoint}`,
       json: true,
       data: data
     }
@@ -33,7 +32,7 @@ const useApi = () => {
         'Content-Type': 'application/json;charset=UTF-8',
         'authorization': token
       },
-      url: process.env.API_URL ? `${process.env.API_URL}/${endpoint}` : `http://localhost:3001/${endpoint}`,
+      url: `https://todoical.herokuapp.com/${endpoint}`,
       json: true,
     }
     try {
