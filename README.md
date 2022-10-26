@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# todos-frontend
+
+Usage:
+- This webapp allows you to keep track of your dails todos.
+- You must make an account to begin. Passwords are hashed before being stored in the database which can be seen in the backend source code.
+- Upon making an account and signing in, you can create todos, delete todos, and mark them as complete.
+
+
+Configured to use the hosted backend located at: https://todoical.herokuapp.com/
+
+If you wish to use the backend locally, you must change the 2 urls in useApi.ts to http://localhost:3001
+
+Backend repo and local setup instructions can be found at: https://github.com/welshy557/todos
+
+Inital Setup:
+- yarn install
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,7 +22,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
