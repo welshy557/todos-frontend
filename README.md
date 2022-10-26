@@ -1,7 +1,11 @@
 # todos-frontend
 
+This app is hosted via Heroku at https://todoical-frontend.herokuapp.com
+
+Any commits made to the main branch of this repo will automatically be deployed to Heroku.
+
 Usage:
-- This webapp allows you to keep track of your dails todos.
+- This webapp allows you to keep track all of your daily todos.
 - You must make an account to begin. Passwords are hashed before being stored in the database which can be seen in the backend source code.
 - Upon making an account and signing in, you can create todos, delete todos, and mark them as complete.
 
