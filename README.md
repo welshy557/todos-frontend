@@ -8,10 +8,6 @@ Usage:
 - Upon making an account and signing in, you can create todos, delete todos, and mark them as complete.
 
 
-Configured to use the hosted backend located at: https://todoical.herokuapp.com/
-
-If you wish to use the backend locally, you must change the 2 urls in useApi.ts to http://localhost:3001
-
 Backend repo and local setup instructions can be found at: https://github.com/welshy557/todos
 
 Inital Setup:
