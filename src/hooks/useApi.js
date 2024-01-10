@@ -12,7 +12,7 @@ const useApi = () => {
         'Content-Type': 'application/json;charset=UTF-8',
         'authorization': token
       },
-      url: `https://todoical.herokuapp.com/${endpoint}`,
+      url: `http://localhost:3001/${endpoint}`,
       json: true,
       data: data
     }
@@ -32,7 +32,7 @@ const useApi = () => {
         'Content-Type': 'application/json;charset=UTF-8',
         'authorization': token
       },
-      url: `https://todoical.herokuapp.com/${endpoint}`,
+      url: `http://localhost:3001/${endpoint}`,
       json: true,
     }
     try {
