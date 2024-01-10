@@ -1,7 +1,5 @@
 # todos-frontend
 
-This app is hosted via Heroku at https://todoical-frontend.herokuapp.com
-
 Any commits made to the main branch of this repo will automatically be deployed to Heroku.
 
 Usage:
